@@ -2,6 +2,12 @@
 name = "emheap"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+authors = ["向阳 <hinata.hoshino@foxmail.com>"]
+description = "Tiny memory manager for embedded system."
+readme = "README.md"
+homepage = "https://github.com/XiangYyang/emheap"
+repository = "https://github.com/XiangYyang/emheap"
 
 [build-dependencies]
 cc = "1"
