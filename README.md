@@ -1,5 +1,7 @@
-﻿﻿emheap
+﻿emheap
 ========
+
+![cargo](https://img.shields.io/badge/cargo-0.1.0-orange)
 
 The `emheap` crate is a simple memory manager for embedded systems and microprocessors.
 
@@ -19,7 +21,7 @@ In `cargo.toml`
 
 ```toml
 [dependencies]
-emheap = { git = "https://github.com/XiangYyang/emheap" }
+emheap = "0"
 ```
 
 Then, in `heap.c`, change the heap memory size:
