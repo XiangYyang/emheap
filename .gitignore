@@ -1,0 +1,10 @@
+﻿*
+!*/
+
+target/
+
+!*.c
+!*.rs
+!*.toml
+!*.md
+!LICENSE
