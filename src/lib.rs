@@ -32,17 +32,17 @@
  OTHER DEALINGS IN THE SOFTWARE.
 */
 //! # emheap
-//! 
+//!
 //! The `emheap` crate is a very simple memory manager for embedded systems and microprocessors.
-//! 
+//!
 //! Here are the main features:
-//! 
+//!
 //!  1. small:  total no more than 350 lines of code.
 //!  2. fragmentation collection:
 //!     the programming will merge the closest memory block to avoid fragmentation.
 //!  3. cross-platform: it does not rely on any libraries.
 //!  4. memory alignment: support memory alignment.
-//! 
+//!
 //! WARNING： **DO NOT** use this library on your PC.
 //!
 #![cfg_attr(not(test), no_std)]
