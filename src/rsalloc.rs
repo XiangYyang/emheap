@@ -1,4 +1,4 @@
-﻿/*
+/*
  | embed Heap
  | 文件名称: rsalloc.rs
  | 文件作用: Rust的分配器实现
@@ -53,4 +53,3 @@ unsafe impl GlobalAlloc for Allocator {
         heap::free(ptr);
     }
 }
-

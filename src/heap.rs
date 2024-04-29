@@ -1,4 +1,4 @@
-﻿/*
+/*
  | embed Heap
  | 文件名称: heap.rs
  | 文件作用: C程序的包装
@@ -34,16 +34,16 @@
 //! wrapper for C implement
 
 /// # Allocate memory
-/// 
+///
 /// Allocate memory in heap.
-/// 
+///
 /// ## Arguments
-/// 
+///
 ///  * `size`: need size, bytes
 ///  * `align`: memory alignment, bytes
-/// 
+///
 /// ## Return Value
-/// 
+///
 /// If succeeded, this function will return the start pointer for the block,
 /// and if failed, it will return `None`.
 pub fn allocate(size: usize, align: usize) -> Option<*mut u8> {
@@ -61,7 +61,7 @@ pub fn free(ptr: *mut u8) {
 }
 
 /// # Initialize heap
-/// 
+///
 /// Initialize heap, it will initialize the free list in heap memory.
 pub fn init() {
     unsafe { emheap_impl_Heap_Init() };
